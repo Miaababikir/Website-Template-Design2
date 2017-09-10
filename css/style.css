@@ -1,0 +1,226 @@
+/* Start Global Rules */
+body
+{
+  height: 4000px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* End Global Rules */
+
+/* Start Custom Styles */
+.uppercase
+{
+  text-transform: uppercase;
+}
+
+/* End Custom Styles */
+
+/* Start Navbar */
+.navbar-inverse
+{
+  background-color: #000;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar .navbar-header .navbar-brand
+{
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar .navbar-header .navbar-brand span
+{
+  color: #ff8b38;
+  font-weight: normal;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+  color: #fff;
+}
+
+.scrolled
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+/* End Navbar */
+
+/* Start Header */
+.header
+{
+  background: url('../img/header.png') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  color: #aaa;
+}
+
+.header .centering-vh
+{
+  margin-top: 25vh;
+}
+
+.header .overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header .overlay h1
+{
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.header .overlay h1 span
+{
+  font-weight: normal;
+  color: #ff8b38;
+}
+
+.header .overlay h1 ~.lead
+{
+  font-size: 30px;
+}
+
+.header .overlay p ~hr
+{
+  width: 15%;
+  height: 2px;
+  background-color: #fff;
+  margin: 25px 0;
+}
+
+.header button
+{
+  margin-top: 20px;
+  background: transparent;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header form
+{
+  width: 360px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.header form h2
+{
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.header form h2 span
+{
+  color: #ff8b38;
+}
+
+.header form .form-control
+{
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto 40px;
+  width: 80%;
+}
+
+.header form input[type="submit"]
+{
+  background-color: #ff8b38;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+}
+
+/* End Header */
+
+/* Start Social Media */
+.social-section
+{
+  padding: 10px;
+  background: #fff;
+  box-shadow: 10px 10px 10px #ccc;
+  -webkit-box-shadow: 10px 10px 10px #ccc;
+  -moz-box-shadow: 10px 10px 10px #ccc;
+  -o-box-shadow: 10px 10px 10px #ccc;
+}
+
+.social-section h4
+{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.social-section p
+{
+  color: #848080;
+}
+
+.social-section i
+{
+  color: #ccc;
+  margin: 20px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.social-section .fa-facebook:hover
+{
+  color: #3b5998;
+}
+
+.social-section .fa-twitter:hover
+{
+  color: #1da1f2;
+}
+
+.social-section .fa-google-plus:hover
+{
+  color: #dd4b39;
+}
+
+.social-section .fa-pinterest:hover
+{
+  color: #bd081c;
+}
+
+.social-section .fa-instagram:hover
+{
+  color: #405de6;
+}
+
+.social-section .fa-stumbleupon:hover
+{
+  color: #eb4924;
+}
+
+.social-section .fa-rss:hover
+{
+  color: #f26522;
+}
+
+/* Start Social Media */
